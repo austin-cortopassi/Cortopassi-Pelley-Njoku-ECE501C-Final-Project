@@ -43,7 +43,7 @@ python recommend.py
 You can run an interactive Streamlit application to explore recommendations visually.
 
 **Run the app:**
-streamlit run streamlit_app.py
+streamlit run web_gui.py
 
 
 **In the app, users can:**
