@@ -27,10 +27,16 @@ python recommend.py
 ## Insights You’ll Get
 
 ### From `analysis_queries.sql`
-- **Top restaurants by average order value**  
-- **Fastest restaurants by average delivery time**  
-- **Average dasher load per market** (proxy for region congestion)  
-- **Correlation between dashers and delivery time**
+
+- **Top restaurants by average order value**
+- **Restaurants with the fastest delivery times**
+- **Dasher load by region (market congestion)**
+- **Correlation between delivery time and dasher availability**
+- **Best restaurants within each cuisine category**
+- **Restaurants with low busy ratios (efficient dasher availability)**
+- **High-revenue restaurants**
+- **Consistent and reliable performers based on variance and volume**
+- **Popularity-based rankings**
 
 ### From `recommend.py`
 - `top_value()` — finds high-value restaurants  
@@ -51,11 +57,21 @@ streamlit run web_gui.py
 - Choose preferences such as *Fast Delivery*, *High Value*, or *Most Popular*  
 - View data-driven restaurant recommendations dynamically  
 
+**Multi-Tab UI**
+Results Table Tab – Shows a live query table based on user-selected filters  
+Visualization Tab – Allows users to:  
+- Select any two numeric metrics  
+- Choose between Scatter or Bar visualizations  
+- See relationships between delivery time, order value, popularity, etc.
+
+**Indexing Analysis**
+User can select indexing analysis in left menu
+One-click test demonstrating the query time before and after adding indexes
+
 ---
 
 ## Future Enhancements
 
-- Add indexing analysis to evaluate database performance and optimize query execution time.  
 - Implement error analysis to detect data inconsistencies (e.g., missing delivery times or invalid subtotals) and assess recommendation accuracy.  
 - Introduce query performance tracking to measure improvements before and after indexing.  
 - Visualize performance and error metrics using Streamlit dashboards.  
