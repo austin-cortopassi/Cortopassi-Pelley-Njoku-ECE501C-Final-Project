@@ -57,14 +57,14 @@ streamlit run web_gui.py
 - Choose preferences such as *Fast Delivery*, *High Value*, or *Most Popular*  
 - View data-driven restaurant recommendations dynamically  
 
-**Multi-Tab UI**
+**Multi-Tab UI**  
 Results Table Tab – Shows a live query table based on user-selected filters  
 Visualization Tab – Allows users to:  
 - Select any two numeric metrics  
 - Choose between Scatter or Bar visualizations  
 - See relationships between delivery time, order value, popularity, etc.
 
-**Indexing Analysis**
+**Indexing Analysis**  
 User can select indexing analysis in left menu
 One-click test demonstrating the query time before and after adding indexes
 
