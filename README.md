@@ -65,7 +65,7 @@ Visualization Tab – Allows users to:
 - See relationships between delivery time, order value, popularity, etc.
 
 **Indexing Analysis**  
-User can select indexing analysis in left menu
+User can select indexing analysis in left menu  
 One-click test demonstrating the query time before and after adding indexes
 
 ---
