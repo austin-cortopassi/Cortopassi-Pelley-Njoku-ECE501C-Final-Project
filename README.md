@@ -80,5 +80,6 @@ One-click test demonstrating the query time before and after adding indexes
  
 **Real-Time Data Integration**  
 - Integrating real-time delivery and marketplace data would allow the system to generate dynamic, continuously updated recommendations based on current dasher availability, congestion levels, and active order conditions. This would significantly improve accuracy compared to relying solely on historical data.  
+ 
 **Natural Language Query Interface**  
 - A natural language query interface would allow users to request recommendations conversationally—for example, “Find fast Mexican restaurants near Market 4”—by automatically translating user text into structured SQL queries. This makes the system more intuitive, accessible, and flexible for non-technical users. 
