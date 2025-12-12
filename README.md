@@ -39,8 +39,14 @@ python recommend.py
 - **Popularity-based rankings**
 
 ### From `recommend.py`
-- `top_value()` — finds high-value restaurants  
-- `top_fastest()` — finds fast delivery performers  
+- `fast_delivery()` — finds restaurants with the lowest average delivery time  
+- `high_value()` — identifies restaurants offering high average value per item  
+- `most_popular()` — returns restaurants with the highest total number of orders  
+- `top_by_cuisine()` — ranks restaurants within each cuisine by average order value and order count  
+- `low_busy_ratio()` — finds restaurants with efficient dasher availability (low busy/on-shift ratio)  
+- `highest_revenue()` — identifies restaurants generating the most total revenue  
+- `reliable_performers()` — combines volume and delivery speed to find balanced, high-performing restaurants  
+- `low_delivery_variance()` — returns restaurants with the most consistent delivery times  
 
 ---
 
@@ -71,8 +77,8 @@ One-click test demonstrating the query time before and after adding indexes
 ---
 
 ## Future Enhancements
-
-- Implement error analysis to detect data inconsistencies (e.g., missing delivery times or invalid subtotals) and assess recommendation accuracy.  
-- Introduce query performance tracking to measure improvements before and after indexing.  
-- Visualize performance and error metrics using Streamlit dashboards.  
-- Incorporate user feedback and satisfaction tracking to validate recommendation effectiveness.  
+ 
+**Real-Time Data Integration**  
+- Integrating real-time delivery and marketplace data would allow the system to generate dynamic, continuously updated recommendations based on current dasher availability, congestion levels, and active order conditions. This would significantly improve accuracy compared to relying solely on historical data.  
+**Natural Language Query Interface**  
+- A natural language query interface would allow users to request recommendations conversationally—for example, “Find fast Mexican restaurants near Market 4”—by automatically translating user text into structured SQL queries. This makes the system more intuitive, accessible, and flexible for non-technical users. 
